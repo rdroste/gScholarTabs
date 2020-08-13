@@ -1,0 +1,28 @@
+{
+
+  "manifest_version": 2,
+  "name": "Google Scholar Tab Fixer",
+  "version": "1.0",
+
+  "description": "Fix opening entries from Google Scholar profiles in new tabs (middle click).",
+  "icons": {
+    "48": "icons/baseline_tab_black_48dp.png"
+  },
+
+  "author": "Richard Droste",
+  "homepage_url": "https://github.com/rdroste/gScholarTabs",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "include_globs": [
+          "*://*scholar.google.*/citations?user=*"
+      ],
+      "js": ["gscholartabs.js"],
+      "run_at": "document_end"
+    }
+  ]
+
+}
