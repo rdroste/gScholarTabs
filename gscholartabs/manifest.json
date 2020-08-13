@@ -2,9 +2,9 @@
 
   "manifest_version": 2,
   "name": "Google Scholar Tab Fixer",
-  "version": "1.0",
+  "version": "1.1",
 
-  "description": "Fix opening entries from Google Scholar profiles in new tabs (middle click).",
+  "description": "Fix opening entries from Google Scholar profiles in new tabs.",
   "icons": {
     "48": "icons/baseline_tab_black_48dp.png"
   },
@@ -18,7 +18,7 @@
         "*://*/*"
       ],
       "include_globs": [
-          "*://*scholar.google.*/citations?user=*"
+          "*://*scholar.google.*/citations?*user=*"
       ],
       "js": ["gscholartabs.js"],
       "run_at": "document_end"
