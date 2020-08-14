@@ -12,14 +12,14 @@ This browser extension automatically converts the entries in Google Scholar prof
 
 ## Installation
 
+### Firefox Add-on
+https://addons.mozilla.org/en-US/firefox/addon/google-scholar-tab-fixer/
+
 ### Manual Firefox Installation
 * Dowlonad the Firefox extension file by clicking [here](https://github.com/rdroste/gScholarTabs/blob/master/google_scholar_tab_fixer-1.0-fx.xpi) and then clicking *Download*.
 * Open the *Add-ons manager* (in the top-right menu click on "Add-ons")
 * Either drag the downloded .xpi file into the *Add-ons manager* or click on the gear symbol, click "Install Add-on From File" and select the .xpi file.
 * Finished! The Add-on should now be working and visible in the *Add-on manager*
-
-### Firefox Add-on
-Under review at Mozilla.
 
 ### Manual Chrome Installation
 * Clone the repository or download and unzip the repository zip file (click "Code" and then "Download ZIP" on the top right).
