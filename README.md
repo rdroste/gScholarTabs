@@ -12,6 +12,9 @@ This browser extension automatically converts the entries in Google Scholar prof
 
 ## Installation
 
+### Chrome Extension
+https://chrome.google.com/webstore/detail/google-scholar-tab-fixer/mgnbicheoadimihjpbhdoalhandaojod/related
+
 ### Firefox Add-on
 https://addons.mozilla.org/en-US/firefox/addon/google-scholar-tab-fixer/
 
@@ -32,8 +35,4 @@ https://addons.mozilla.org/en-US/firefox/addon/google-scholar-tab-fixer/
 This will create a "gscholartabs.crx" file in the "gscholartabs" folder.
 Drag it into the Chrome Extension manager to install the packed extension.
 You can now delete the repository.
-
-### Chrome Extension
-Under review at the Chrome Web Store.
-
 
